@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: demo # A unique name for your source (e.g., 'raw_data')
+    database: demo # Optional: The database where the source tables reside
+    schema: demo_schema # The schema where the source tables reside
+    tables:
+      - name: bike
+      - name: weather # The name of the first table in this source
+       
